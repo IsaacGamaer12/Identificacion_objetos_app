@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <title>App web de identificación de imágenes en tiempo real</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="Image_class120.jpg">
+<center>
+  <h3 class="btn-primary heading">App web de identificación de imágenes en tiempo real
+    <hr>
+    
+      <div class="heading_div">
+        Utilizamos Mobilenet como modelo  
+        <br>
+          <div class="btn heading_div2">
+          El modelo Mobilenet está entrenado en <br> más de 1.3 millones de imágenes 
+          </div>
+        </div>
+    
+    <br>
+  </h3>
+  <br>
+  
+  <p class="btn btn-success result_para_tag">Objeto : 
+    <span id="result_object_name"></span> 
+  </p>
+
+  <p class="btn btn-success result_para_tag">Precisión : 
+    <span id="result_object_accuracy"></span> 
+  </p>
+
+</center>
+
+<div class="copy_right_footer">
+  Desarrollado por BYJU'S FutureSchool
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
